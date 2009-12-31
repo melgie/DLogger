@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BD39F91F10E03E030081D128 /* Make All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD39F92610E03E530081D128 /* Build configuration list for PBXAggregateTarget "Make All" */;
+			buildPhases = (
+				BD39F91E10E03E030081D128 /* ShellScript */,
+			);
+			dependencies = (
+				BD39F92310E03E0C0081D128 /* PBXTargetDependency */,
+				BD39F92510E03E0C0081D128 /* PBXTargetDependency */,
+			);
+			name = "Make All";
+			productName = "Make All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BD39F8EB10E03BB50081D128 /* DLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BD41E7FD10D9F96C0061C2AD /* DLogger.h */; };
+		BD39F8ED10E03BB50081D128 /* dlogger_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* dlogger_Prefix.pch */; };
+		BD39F8EE10E03BB50081D128 /* DLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41E7FE10D9F96C0061C2AD /* DLogger.m */; };
+		BD39F8F010E03BB50081D128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD41E89210DA00450061C2AD /* Foundation.framework */; };
+		BD39F98410E046F20081D128 /* Tracers.h in Headers */ = {isa = PBXBuildFile; fileRef = BD39F98110E046F20081D128 /* Tracers.h */; };
+		BD39F98510E046F20081D128 /* TraceUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39F98210E046F20081D128 /* TraceUIView.m */; };
+		BD39F98610E046F20081D128 /* TraceUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39F98310E046F20081D128 /* TraceUIViewController.m */; };
+		BD39F98710E046F20081D128 /* Tracers.h in Headers */ = {isa = PBXBuildFile; fileRef = BD39F98110E046F20081D128 /* Tracers.h */; };
+		BD39F98810E046F20081D128 /* TraceUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39F98210E046F20081D128 /* TraceUIView.m */; };
+		BD39F98910E046F20081D128 /* TraceUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD39F98310E046F20081D128 /* TraceUIViewController.m */; };
+		BD41E88210D9FEB90061C2AD /* DLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BD41E7FD10D9F96C0061C2AD /* DLogger.h */; };
+		BD41E88310D9FEB90061C2AD /* DLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41E7FE10D9F96C0061C2AD /* DLogger.m */; };
+		BD41E88410D9FED00061C2AD /* dlogger_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* dlogger_Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD39F92210E03E0C0081D128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD41E86F10D9FCA30061C2AD;
+			remoteInfo = "dlogger-simulator";
+		};
+		BD39F92410E03E0C0081D128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD39F8E910E03BB50081D128;
+			remoteInfo = "dlogger-device";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* dlogger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlogger_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		BD39F8F410E03BB50081D128 /* libdlogger-device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libdlogger-device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD39F98110E046F20081D128 /* Tracers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracers.h; sourceTree = "<group>"; };
+		BD39F98210E046F20081D128 /* TraceUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceUIView.m; sourceTree = "<group>"; };
+		BD39F98310E046F20081D128 /* TraceUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceUIViewController.m; sourceTree = "<group>"; };
+		BD41E7FD10D9F96C0061C2AD /* DLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLogger.h; sourceTree = "<group>"; };
+		BD41E7FE10D9F96C0061C2AD /* DLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLogger.m; sourceTree = "<group>"; };
+		BD41E87010D9FCA30061C2AD /* libdlogger-simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libdlogger-simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD41E89210DA00450061C2AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD39F8EF10E03BB50081D128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39F8F010E03BB50081D128 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41E86E10D9FCA30061C2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD41E87010D9FCA30061C2AD /* libdlogger-simulator.a */,
+				BD39F8F410E03BB50081D128 /* libdlogger-device.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* dlogger */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = dlogger;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD41E89210DA00450061C2AD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD39F98010E046CB0081D128 /* Tracers */,
+				BD39F97F10E046B30081D128 /* DLogger */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* dlogger_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BD39F97F10E046B30081D128 /* DLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BD41E7FD10D9F96C0061C2AD /* DLogger.h */,
+				BD41E7FE10D9F96C0061C2AD /* DLogger.m */,
+			);
+			name = DLogger;
+			sourceTree = "<group>";
+		};
+		BD39F98010E046CB0081D128 /* Tracers */ = {
+			isa = PBXGroup;
+			children = (
+				BD39F98110E046F20081D128 /* Tracers.h */,
+				BD39F98210E046F20081D128 /* TraceUIView.m */,
+				BD39F98310E046F20081D128 /* TraceUIViewController.m */,
+			);
+			name = Tracers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD39F8EA10E03BB50081D128 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39F8ED10E03BB50081D128 /* dlogger_Prefix.pch in Headers */,
+				BD39F8EB10E03BB50081D128 /* DLogger.h in Headers */,
+				BD39F98710E046F20081D128 /* Tracers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41E86C10D9FCA30061C2AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41E88410D9FED00061C2AD /* dlogger_Prefix.pch in Headers */,
+				BD41E88210D9FEB90061C2AD /* DLogger.h in Headers */,
+				BD39F98410E046F20081D128 /* Tracers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD39F8E910E03BB50081D128 /* dlogger-device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD39F8F110E03BB50081D128 /* Build configuration list for PBXNativeTarget "dlogger-device" */;
+			buildPhases = (
+				BD39F8EA10E03BB50081D128 /* Headers */,
+				BD39F8EC10E03BB50081D128 /* Sources */,
+				BD39F8EF10E03BB50081D128 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dlogger-device";
+			productName = "dlogger-simulator";
+			productReference = BD39F8F410E03BB50081D128 /* libdlogger-device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD41E86F10D9FCA30061C2AD /* dlogger-simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41E87310D9FCCC0061C2AD /* Build configuration list for PBXNativeTarget "dlogger-simulator" */;
+			buildPhases = (
+				BD41E86C10D9FCA30061C2AD /* Headers */,
+				BD41E86D10D9FCA30061C2AD /* Sources */,
+				BD41E86E10D9FCA30061C2AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dlogger-simulator";
+			productName = "dlogger-simulator";
+			productReference = BD41E87010D9FCA30061C2AD /* libdlogger-simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "dlogger" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* dlogger */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD39F91F10E03E030081D128 /* Make All */,
+				BD41E86F10D9FCA30061C2AD /* dlogger-simulator */,
+				BD39F8E910E03BB50081D128 /* dlogger-device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD39F91E10E03E030081D128 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nmkdir -p ${BUILD_DIR}/Release-merged\nrm -rf ${BUILD_DIR}/Release-merged/libdlogger.a\nlipo ${BUILD_DIR}/Release-iphoneos/libdlogger-device.a ${BUILD_DIR}/Release-iphonesimulator/libdlogger-simulator.a -create -output ${BUILD_DIR}/Release-merged/libdlogger.a\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD39F8EC10E03BB50081D128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39F8EE10E03BB50081D128 /* DLogger.m in Sources */,
+				BD39F98810E046F20081D128 /* TraceUIView.m in Sources */,
+				BD39F98910E046F20081D128 /* TraceUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41E86D10D9FCA30061C2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41E88310D9FEB90061C2AD /* DLogger.m in Sources */,
+				BD39F98510E046F20081D128 /* TraceUIView.m in Sources */,
+				BD39F98610E046F20081D128 /* TraceUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD39F92310E03E0C0081D128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD41E86F10D9FCA30061C2AD /* dlogger-simulator */;
+			targetProxy = BD39F92210E03E0C0081D128 /* PBXContainerItemProxy */;
+		};
+		BD39F92510E03E0C0081D128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD39F8E910E03BB50081D128 /* dlogger-device */;
+			targetProxy = BD39F92410E03E0C0081D128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		BD39F8F210E03BB50081D128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dlogger_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "dlogger-device";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		BD39F8F310E03BB50081D128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dlogger_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "dlogger-device";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		BD39F92010E03E040081D128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Make All";
+			};
+			name = Debug;
+		};
+		BD39F92110E03E040081D128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Make All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BD41E87110D9FCA70061C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dlogger_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "dlogger-simulator";
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		BD41E87210D9FCA70061C2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dlogger_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "dlogger-simulator";
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "dlogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD39F8F110E03BB50081D128 /* Build configuration list for PBXNativeTarget "dlogger-device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39F8F210E03BB50081D128 /* Debug */,
+				BD39F8F310E03BB50081D128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD39F92610E03E530081D128 /* Build configuration list for PBXAggregateTarget "Make All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD39F92010E03E040081D128 /* Debug */,
+				BD39F92110E03E040081D128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD41E87310D9FCCC0061C2AD /* Build configuration list for PBXNativeTarget "dlogger-simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41E87110D9FCA70061C2AD /* Debug */,
+				BD41E87210D9FCA70061C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
