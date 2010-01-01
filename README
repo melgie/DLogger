@@ -1,0 +1,20 @@
+DLogger
+
+An extended Debug / Tracing library for use for iPhone application development.
+
+Features:
+- Logging is compiled out for non-DEBUG builds
+- Per-class logging control
+- Auto-logging of Class, Function and Line Number
+- Convenience calls for tracing vs. logging
+- Variable-length argument lists in log messages
+
+Usage:
+Project includes three build targets
+- dlogger-simulator: logging library for use with simulator-targetted applications
+- dlogger-device: logging library for use with device-targetted applications
+- Make All: convenience target for building both libraries and merging them into a single architecture-independant library
+
+Building:
+Build the 'Make All' target.
+
